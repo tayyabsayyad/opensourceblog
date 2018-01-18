@@ -12,7 +12,61 @@
     
     
     <item>
-      <title>Youtubedl</title>
+      <title>Display todays files in Ubuntu </title>
+      <link>tayyabsayyad.github.io/post/tips/todayslist/</link>
+      <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
+      
+      <guid>tayyabsayyad.github.io/post/tips/todayslist/</guid>
+      <description>If you want to get list all files which you have created today then use following command
+ls -al –time-style=+%D | grep `date +%D`  Option - Description
+ l - Long listing of files a - all files including hidden files –time-style - Time display style grep - to find files only from given date date - to find todays date and then it gets substituted in grep  </description>
+    </item>
+    
+    <item>
+      <title>Finding bbig files in terminal</title>
+      <link>tayyabsayyad.github.io/post/tips/listbigfiles/</link>
+      <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
+      
+      <guid>tayyabsayyad.github.io/post/tips/listbigfiles/</guid>
+      <description>You might often come across a situation where you want to find biggest files to delete to free space in your drives or home directory. I found this trick on
+http://www.tuxradar.com/content/linux-tips-every-geek-should-know
+Use following command to find big files in sorted order by size.
+ls -lSrh It works as follows Option Meaning l - Long listing of files S - Sort by file size largest first r - Sorting list in reverse order h - Human Readable File Size If you want big file to appear first remove ‘r’ option You can also append listing criteria for specific files  </description>
+    </item>
+    
+    <item>
+      <title>How to remove unnecessary packages from Ubuntu ?</title>
+      <link>tayyabsayyad.github.io/post/tips/removeunnecessary/</link>
+      <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
+      
+      <guid>tayyabsayyad.github.io/post/tips/removeunnecessary/</guid>
+      <description>In order to save space or to make your system work faster, you can do following steps you can use following tricks
+ Remove all packages which got installed to satisfy dependency and now no more needed.
+sudo apt-get autoremove
+ Remove all packages which are downloaded for installation
+sudo apt-get clean
+ Remove files which can’t be downloaded or they are now useless.
+sudo apt-get autoclean
+  </description>
+    </item>
+    
+    <item>
+      <title>Set Java Home in Ubuntu</title>
+      <link>tayyabsayyad.github.io/post/tips/javasetpath/</link>
+      <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
+      
+      <guid>tayyabsayyad.github.io/post/tips/javasetpath/</guid>
+      <description>Open terminal and open file /etc/profile
+$sudo gedit /etc/profile  Copy your Java Home location as it can be in your home folder of open jdk
+JAVA_HOME=”/home/tayyabali/jdk1.8.0_31/bin” or JAVA_HOME=”/usr/lib/jvm/open-jdk”
+Append the home entry as following in the “profile file” following
+export JAVA_HOME=$JAVA_HOME:/home/tayyabali/jdk1.8.0_31/bin  Use source command to load the variables, by running this command:
+source /etc/environment  Then check the variable, by running this command:
+echo $JAVA_HOME  </description>
+    </item>
+    
+    <item>
+      <title>Youtube-dl</title>
       <link>tayyabsayyad.github.io/post/tips/youtubedl/</link>
       <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
       
@@ -56,15 +110,6 @@ Insert Mode : In this mode, you are editing the file. When you type it gets ente
       <guid>tayyabsayyad.github.io/post/linux/my-first-post/</guid>
       <description>To install Linux Mint Desktop on Ubuntu 16.04 following are the steps
 1. sudo add-apt-repository ppa:embrosyn/cinnamon 1. sudo apt update &amp;amp;&amp;amp; sudo apt install cinnamon  Logout and Select Linux Mint from the Login Screen</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>tayyabsayyad.github.io/post/tips/javasetpath/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>tayyabsayyad.github.io/post/tips/javasetpath/</guid>
-      <description></description>
     </item>
     
   </channel>

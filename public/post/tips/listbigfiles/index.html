@@ -3,13 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Youtube-dl</title>
+<title>Finding bbig files in terminal</title>
 <meta name="description" content=" Tayyabali Sayyad&#39;s Personal blog about Open Source">
 <meta name="generator" content="Hugo 0.33" />
-<meta property="og:title" content="Youtube-dl" />
-<meta property="og:description" content="sharing a small trick on how to download a video from youtube using a command line tool youtube-dl" />
+<meta property="og:title" content="Finding bbig files in terminal" />
+<meta property="og:description" content="You might often come across a situation where you want to find biggest files to delete to free space in your drives or home directory. I found this trick on
+http://www.tuxradar.com/content/linux-tips-every-geek-should-know
+Use following command to find big files in sorted order by size.
+ls -lSrh It works as follows Option Meaning l - Long listing of files S - Sort by file size largest first r - Sorting list in reverse order h - Human Readable File Size If you want big file to appear first remove ‘r’ option You can also append listing criteria for specific files  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="tayyabsayyad.github.io/post/tips/youtubedl/" />
+<meta property="og:url" content="tayyabsayyad.github.io/post/tips/listbigfiles/" />
 
 
 
@@ -54,40 +57,32 @@
 <main class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">Youtube-dl</h1>
+			<h1 class="post__title">Finding bbig files in terminal</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
 				<time class="post__meta-date" datetime="2018-01-18T19:53:57">January 18, 2018</time>
 			</p>
 		</header>
 		<div class="post__content clearfix">
-			<p>Hi all, Just sharing a small trick on how to download a video from youtube using a command line tool youtube-dl.</p>
+			<p>You might often come across a situation where you want to find biggest files to delete to free space in your drives or home directory. I found this trick on</p>
 
-<p>You can find the entire documentation of this tool here <a href="https://rg3.github.io/youtube-dl/">https://rg3.github.io/youtube-dl/</a></p>
+<p><a href="http://www.tuxradar.com/content/linux-tips-every-geek-should-know">http://www.tuxradar.com/content/linux-tips-every-geek-should-know</a></p>
 
-<p>Install using following command</p>
+<p>Use following command to find big files in sorted order by size.</p>
 
-<pre><code>sudo apt-get install youtube-dl
-</code></pre>
+<pre><code>ls -lSrh
 
-<p>Once you install you can download videos using</p>
 
-<pre><code>youtube-dl link
-</code></pre>
+It works as follows
 
-<p>Example lets download one of my favourite video</p>
+Option  Meaning
+l   - Long listing of files
+S   - Sort by file size largest first
+r   - Sorting list in reverse order
+h   - Human Readable File Size
+If you want big file to appear first remove ‘r’ option
 
-<pre><code>youtube-dl https://www.youtube.com/watch?v=lSRYCc7ApHc&amp;amp;index=42&amp;amp;list=PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV
-</code></pre>
-
-<p>You can also download multiple videos from the playlist as follows</p>
-
-<pre><code>youtube-dl -ci play-list-url
-</code></pre>
-
-<p>To can also you the Youtube-dl tool behind the proxy as follows,</p>
-
-<pre><code>youtube-dl --proxy  http://username:password@proxy-server:port https://www.youtube.com/watch?v=VcoVYfDVEww
+You can also append listing criteria for specific files
 </code></pre>
 
 		</div>
@@ -109,10 +104,10 @@
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="tayyabsayyad.github.io/post/tutorials/selfsignedcertificate/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Self Signed Certificate</p></a>
+		<a class="post-nav__link" href="tayyabsayyad.github.io/post/tips/removeunnecessary/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">How to remove unnecessary packages from Ubuntu ?</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="tayyabsayyad.github.io/post/tips/javasetpath/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Set Java Home in Ubuntu</p></a>
+		<a class="post-nav__link" href="tayyabsayyad.github.io/post/tips/todayslist/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Display todays files in Ubuntu </p></a>
 	</div>
 </nav>
 
