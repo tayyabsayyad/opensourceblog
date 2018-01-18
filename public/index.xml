@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source Tutorials</title>
+    <link>tayyabsayad.github.io/</link>
+    <description>Recent content on Open Source Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jan 2018 19:53:57 +0530</lastBuildDate>
+    
+	<atom:link href="tayyabsayad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Youtubedl</title>
+      <link>tayyabsayad.github.io/post/tips/youtubedl/</link>
+      <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
+      
+      <guid>tayyabsayad.github.io/post/tips/youtubedl/</guid>
+      <description>Hi all, Just sharing a small trick on how to download a video from youtube using a command line tool youtube-dl.
+You can find the entire documentation of this tool here https://rg3.github.io/youtube-dl/
+Install using following command
+sudo apt-get install youtube-dl  Once you install you can download videos using
+youtube-dl link  Example lets download one of my favourite video
+youtube-dl https://www.youtube.com/watch?v=lSRYCc7ApHc&amp;amp;amp;index=42&amp;amp;amp;list=PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV  You can also download multiple videos from the playlist as follows</description>
+    </item>
+    
+    <item>
+      <title>Self Signed Certificate</title>
+      <link>tayyabsayad.github.io/post/tutorials/selfsignedcertificate/</link>
+      <pubDate>Mon, 15 Jan 2018 21:46:55 +0530</pubDate>
+      
+      <guid>tayyabsayad.github.io/post/tutorials/selfsignedcertificate/</guid>
+      <description>To secure your web server you need SSL certificate which can be obtained by two ways
+ Generate a self-signed certificate Obtain from the third party like DigiCert or Thawte  Generate Self Signed Certificate Install openssl if not present using the following command
+$sudo apt-get install openssl    Next step is to generate private keys which can be generated as follows, This will ask you to enter a password to protect this key and will generate key file named www.</description>
+    </item>
+    
+    <item>
+      <title>Vi Editor</title>
+      <link>tayyabsayad.github.io/post/linux/vi-editor/</link>
+      <pubDate>Mon, 15 Jan 2018 21:46:44 +0530</pubDate>
+      
+      <guid>tayyabsayad.github.io/post/linux/vi-editor/</guid>
+      <description>Vi editor is a default editor in most of the Linux distributions.
+Vi editor has three modes as follows,
+Command Mode : In this mode, you can execute commands, whatever you type is considered as a command and executed on the current file.
+Insert Mode : In this mode, you are editing the file. When you type it gets entered into the current file which you are working on. Execution mode : In this mode, you save, close, exit from the working file.</description>
+    </item>
+    
+    <item>
+      <title>Install Linux Mint Desktop on Ubuntu 16.04</title>
+      <link>tayyabsayad.github.io/post/linux/my-first-post/</link>
+      <pubDate>Mon, 15 Jan 2018 21:46:34 +0530</pubDate>
+      
+      <guid>tayyabsayad.github.io/post/linux/my-first-post/</guid>
+      <description>To install Linux Mint Desktop on Ubuntu 16.04 following are the steps
+1. sudo add-apt-repository ppa:embrosyn/cinnamon 1. sudo apt update &amp;amp;&amp;amp; sudo apt install cinnamon  Logout and Select Linux Mint from the Login Screen</description>
+    </item>
+    
+  </channel>
+</rss>
