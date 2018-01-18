@@ -1,0 +1,39 @@
+baseURL = "tayyabsayad.github.io"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+title = "Open Source Tutorials"
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+    name = "Tayyabali Sayyad"
+    bio = "Tayyabali true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "tayyabali.jpeg"
+
+[Params]
+    subtitle = "Where Open Source is Everything ! " # Subtitle of your site. Used in site header
+    description = " Tayyabali Sayyad's Personal blog about Open Source" # Description of your site. Used in meta description
+    opengraph = true # Enable OpenGraph if true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true # Show authorbox at bottom of pages if true
+    post_navigation = true # Show post navigation at bottom of pages if true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+    #dateformat = "2006-01-02" # change the format of dates
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+    # Enable "Social" widget, if any of "social_*" set a value
+    social_facebook = "tayyabsayyad"
+    social_twitter = "tayyabsayyad"
+    social_linkedin = "tayyabsayyad"
+    social_github = "tayyabsayyad"
+    social_email = "tayyabsayyad@gmail.com"
