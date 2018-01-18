@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Open Source Tutorials</title>
-    <link>tayyabsayad.github.io/categories/</link>
+    <link>tayyabsayyad.github.io/categories/</link>
     <description>Recent content in Categories on Open Source Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="tayyabsayad.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tayyabsayyad.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux</title>
-      <link>tayyabsayad.github.io/categories/linux/</link>
+      <link>tayyabsayyad.github.io/categories/linux/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:44 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/categories/linux/</guid>
+      <guid>tayyabsayyad.github.io/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorials</title>
-      <link>tayyabsayad.github.io/categories/tutorials/</link>
+      <link>tayyabsayyad.github.io/categories/tutorials/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:55 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/categories/tutorials/</guid>
+      <guid>tayyabsayyad.github.io/categories/tutorials/</guid>
       <description></description>
     </item>
     

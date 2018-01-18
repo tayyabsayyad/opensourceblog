@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source Tutorials</title>
-    <link>tayyabsayad.github.io/</link>
+    <link>tayyabsayyad.github.io/</link>
     <description>Recent content on Open Source Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jan 2018 19:53:57 +0530</lastBuildDate>
     
-	<atom:link href="tayyabsayad.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tayyabsayyad.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Youtubedl</title>
-      <link>tayyabsayad.github.io/post/tips/youtubedl/</link>
+      <link>tayyabsayyad.github.io/post/tips/youtubedl/</link>
       <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/post/tips/youtubedl/</guid>
+      <guid>tayyabsayyad.github.io/post/tips/youtubedl/</guid>
       <description>Hi all, Just sharing a small trick on how to download a video from youtube using a command line tool youtube-dl.
 You can find the entire documentation of this tool here https://rg3.github.io/youtube-dl/
 Install using following command
@@ -27,21 +27,21 @@ youtube-dl https://www.youtube.com/watch?v=lSRYCc7ApHc&amp;amp;amp;index=42&amp;
     
     <item>
       <title>Self Signed Certificate</title>
-      <link>tayyabsayad.github.io/post/tutorials/selfsignedcertificate/</link>
+      <link>tayyabsayyad.github.io/post/tutorials/selfsignedcertificate/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:55 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/post/tutorials/selfsignedcertificate/</guid>
+      <guid>tayyabsayyad.github.io/post/tutorials/selfsignedcertificate/</guid>
       <description>To secure your web server you need SSL certificate which can be obtained by two ways
  Generate a self-signed certificate Obtain from the third party like DigiCert or Thawte  Generate Self Signed Certificate Install openssl if not present using the following command
-$sudo apt-get install openssl    Next step is to generate private keys which can be generated as follows, This will ask you to enter a password to protect this key and will generate key file named www.</description>
+$sudo apt-get install openssl  Next step is to generate private keys which can be generated as follows, This will ask you to enter a password to protect this key and will generate key file named www.</description>
     </item>
     
     <item>
       <title>Vi Editor</title>
-      <link>tayyabsayad.github.io/post/linux/vi-editor/</link>
+      <link>tayyabsayyad.github.io/post/linux/vi-editor/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:44 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/post/linux/vi-editor/</guid>
+      <guid>tayyabsayyad.github.io/post/linux/vi-editor/</guid>
       <description>Vi editor is a default editor in most of the Linux distributions.
 Vi editor has three modes as follows,
 Command Mode : In this mode, you can execute commands, whatever you type is considered as a command and executed on the current file.
@@ -50,12 +50,21 @@ Insert Mode : In this mode, you are editing the file. When you type it gets ente
     
     <item>
       <title>Install Linux Mint Desktop on Ubuntu 16.04</title>
-      <link>tayyabsayad.github.io/post/linux/my-first-post/</link>
+      <link>tayyabsayyad.github.io/post/linux/my-first-post/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:34 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/post/linux/my-first-post/</guid>
+      <guid>tayyabsayyad.github.io/post/linux/my-first-post/</guid>
       <description>To install Linux Mint Desktop on Ubuntu 16.04 following are the steps
 1. sudo add-apt-repository ppa:embrosyn/cinnamon 1. sudo apt update &amp;amp;&amp;amp; sudo apt install cinnamon  Logout and Select Linux Mint from the Login Screen</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>tayyabsayyad.github.io/post/tips/javasetpath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>tayyabsayyad.github.io/post/tips/javasetpath/</guid>
+      <description></description>
     </item>
     
   </channel>

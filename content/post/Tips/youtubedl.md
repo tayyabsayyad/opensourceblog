@@ -1,7 +1,9 @@
 ---
-title: "Youtubedl"
+title: "Youtube-dl"
+description: "sharing a small trick on how to download a video from youtube using a command line tool youtube-dl"
 date: 2018-01-18T19:53:57+05:30
 draft: false
+
 ---
 
 Hi all, Just sharing a small trick on how to download a video from youtube using a command line tool youtube-dl.

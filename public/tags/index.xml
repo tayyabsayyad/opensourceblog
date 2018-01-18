@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Open Source Tutorials</title>
-    <link>tayyabsayad.github.io/tags/</link>
+    <link>tayyabsayyad.github.io/tags/</link>
     <description>Recent content in Tags on Open Source Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2018 21:46:55 +0530</lastBuildDate>
     
-	<atom:link href="tayyabsayad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tayyabsayyad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ssl</title>
-      <link>tayyabsayad.github.io/tags/ssl/</link>
+      <link>tayyabsayyad.github.io/tags/ssl/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:55 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/tags/ssl/</guid>
+      <guid>tayyabsayyad.github.io/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vi</title>
-      <link>tayyabsayad.github.io/tags/vi/</link>
+      <link>tayyabsayyad.github.io/tags/vi/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:44 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/tags/vi/</guid>
+      <guid>tayyabsayyad.github.io/tags/vi/</guid>
       <description></description>
     </item>
     

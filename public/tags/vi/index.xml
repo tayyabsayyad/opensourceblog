@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vi on Open Source Tutorials</title>
-    <link>tayyabsayad.github.io/tags/vi/</link>
+    <link>tayyabsayyad.github.io/tags/vi/</link>
     <description>Recent content in Vi on Open Source Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2018 21:46:44 +0530</lastBuildDate>
     
-	<atom:link href="tayyabsayad.github.io/tags/vi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tayyabsayyad.github.io/tags/vi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vi Editor</title>
-      <link>tayyabsayad.github.io/post/linux/vi-editor/</link>
+      <link>tayyabsayyad.github.io/post/linux/vi-editor/</link>
       <pubDate>Mon, 15 Jan 2018 21:46:44 +0530</pubDate>
       
-      <guid>tayyabsayad.github.io/post/linux/vi-editor/</guid>
+      <guid>tayyabsayyad.github.io/post/linux/vi-editor/</guid>
       <description>Vi editor is a default editor in most of the Linux distributions.
 Vi editor has three modes as follows,
 Command Mode : In this mode, you can execute commands, whatever you type is considered as a command and executed on the current file.
