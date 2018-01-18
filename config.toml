@@ -1,4 +1,4 @@
-baseURL = "tayyabsayad.github.io"
+baseURL = "tayyabsayyad.github.io"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 title = "Open Source Tutorials"

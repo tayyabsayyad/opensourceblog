@@ -17,8 +17,7 @@ Install openssl if not present using the following command
 
     $sudo apt-get install openssl
 
-    {{< youtube xmU0s2QtaEY >}}
-
+    
 Next step is to generate private keys which can be generated as follows, This will ask you to enter a password to protect this key and will generate key file named www.opensourcetutorials.in.key
 
     #openssl genrsa -des3 -out www.opensourcetutorials.in.key 1024
