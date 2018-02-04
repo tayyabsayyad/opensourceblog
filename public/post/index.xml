@@ -23,7 +23,7 @@ ls -al –time-style=+%D | grep `date +%D`  Option - Description
     </item>
     
     <item>
-      <title>Finding bbig files in terminal</title>
+      <title>Finding big files in terminal</title>
       <link>tayyabsayyad.github.io/post/tips/listbigfiles/</link>
       <pubDate>Thu, 18 Jan 2018 19:53:57 +0530</pubDate>
       
@@ -108,7 +108,8 @@ Insert Mode : In this mode, you are editing the file. When you type it gets ente
       <pubDate>Mon, 15 Jan 2018 21:46:34 +0530</pubDate>
       
       <guid>tayyabsayyad.github.io/post/linux/my-first-post/</guid>
-      <description>To install Linux Mint Desktop on Ubuntu 16.04 following are the steps
+      <description>Learn how to install Linux Mint Desktop on Ubuntu 16.04
+To install Linux Mint Desktop on Ubuntu 16.04 following are the steps
 1. sudo add-apt-repository ppa:embrosyn/cinnamon 1. sudo apt update &amp;amp;&amp;amp; sudo apt install cinnamon  Logout and Select Linux Mint from the Login Screen</description>
     </item>
     

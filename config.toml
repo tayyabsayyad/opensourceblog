@@ -3,8 +3,8 @@ languageCode = "en-us"
 paginate = "10" # Number of posts per page
 title = "Open Source Tutorials"
 theme = "mainroad"
-disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+disqusShortname = "www-opensourcetutorials-in" # Enable comments by entering your Disqus shortname
+googleAnalytics = "UA-59503205-1" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
     name = "Tayyabali Sayyad"

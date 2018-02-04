@@ -1,5 +1,5 @@
 ---
-title: "Finding bbig files in terminal"
+title: "Finding big files in terminal"
 date: 2018-01-18T19:53:57+05:30
 draft: false
 
