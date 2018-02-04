@@ -8,7 +8,7 @@ googleAnalytics = "UA-59503205-1" # Enable Google Analytics by entering your tra
 
 [Author] # Used in authorbox
     name = "Tayyabali Sayyad"
-    bio = "Tayyabali true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    bio = "Tayyabali is a Open Source evangelist, Works as Assistant Professor at DBIT, Mumbai, India."
     avatar = "tayyabali.jpeg"
 
 [Params]

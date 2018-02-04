@@ -6,6 +6,10 @@ draft: false
 
 ---
 
+Trick to display list of all files which are created today.
+
+<!--more-->
+
 If you want to get list all files which you have created today then use following command
 
     ls -al –time-style=+%D | grep `date +%D`

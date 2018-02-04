@@ -6,6 +6,10 @@ tags: ["vi"]
 categories: ["Linux"]
 ---
 
+In this post we will learn how to use vi editor.
+
+<!--more-->
+
 Vi editor is a default editor in most of the Linux distributions.
 
 Vi editor has three modes as follows,
@@ -16,4 +20,5 @@ Vi editor has three modes as follows,
 ### Insert Mode :
 
  In this mode, you are editing the file. When you type it gets entered into the current file which you are working on.
+
 Execution mode : In this mode, you save, close, exit from the working file.

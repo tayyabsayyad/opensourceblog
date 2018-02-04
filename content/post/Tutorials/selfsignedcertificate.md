@@ -6,6 +6,10 @@ tags: ["ssl"]
 categories: ["Tutorials"]
 ---
 
+In this post we will learn how to create self signed certificate.
+
+<!--more-->
+
 To secure your web server you need SSL certificate which can be obtained by two ways
 
 1. Generate a self-signed certificate
@@ -17,7 +21,7 @@ Install openssl if not present using the following command
 
     $sudo apt-get install openssl
 
-    
+
 Next step is to generate private keys which can be generated as follows, This will ask you to enter a password to protect this key and will generate key file named www.opensourcetutorials.in.key
 
     #openssl genrsa -des3 -out www.opensourcetutorials.in.key 1024

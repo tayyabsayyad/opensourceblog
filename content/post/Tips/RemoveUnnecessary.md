@@ -6,6 +6,10 @@ draft: false
 
 ---
 
+We will learn to remove unnecessary packages from the Ubuntu system.
+
+<!--more-->
+
 In order to save space or to make your system work faster, you can do following steps you can use following tricks
 
 1. Remove all packages which got installed to satisfy dependency and now no more needed.

@@ -6,7 +6,7 @@ draft: false
 
 Learn how to install Linux Mint Desktop on Ubuntu 16.04
 
-<!-- readmore -->
+<!--more-->
 
 To install Linux Mint Desktop on Ubuntu 16.04 following are the steps
 

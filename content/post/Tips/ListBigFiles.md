@@ -5,6 +5,9 @@ draft: false
 
 ---
 
+Trick to list all big files in order using ls command.
+
+<!--more-->
 
 You might often come across a situation where you want to find biggest files to delete to free space in your drives or home directory. I found this trick on
 

@@ -5,6 +5,8 @@ date: 2018-01-18T19:53:57+05:30
 draft: false
 
 ---
+In this post we will learn easy way to download youtube videos and play lists.
+<!--more-->
 
 Hi all, Just sharing a small trick on how to download a video from youtube using a command line tool youtube-dl.
 

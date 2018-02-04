@@ -5,6 +5,10 @@ date: 2018-01-18T19:53:57+05:30
 draft: false
 
 ---
+How to set the java home in any Ubuntu operating system.
+
+<!--more-->
+
 Open terminal and open file /etc/profile
 
     $sudo gedit /etc/profile
