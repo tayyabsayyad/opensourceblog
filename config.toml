@@ -24,7 +24,7 @@ googleAnalytics = "UA-59503205-1" # Enable Google Analytics by entering your tra
     #dateformat = "2006-01-02" # change the format of dates
 
 [Params.widgets]
-    search = true # Enable "Search" widget
+    search = false # Enable "Search" widget
     recent_articles = true # Enable "Recent articles" widget
     recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
     categories = true # Enable "Categories" widget

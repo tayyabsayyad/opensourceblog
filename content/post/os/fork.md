@@ -4,6 +4,7 @@ title: "Fork System Call"
 date: 2018-02-09
 draft: false
 tags: ["os"]
+keywords: fork, os
 ---
 
 In this post we will learn to how fork system call works with example program.
